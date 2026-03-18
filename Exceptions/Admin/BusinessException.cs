@@ -1,0 +1,7 @@
+﻿namespace FraudMonitoringSystem.Exceptions.Admin
+{
+    public class BusinessException : Exception
+    {
+        public BusinessException(string message) : base(message) { }
+    }
+}
